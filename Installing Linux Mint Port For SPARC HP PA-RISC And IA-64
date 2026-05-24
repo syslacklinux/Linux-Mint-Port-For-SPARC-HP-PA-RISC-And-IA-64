@@ -1,0 +1,32 @@
+1 Download Ubuntu 6.06 Server https://old-releases.ubuntu.com/releases/6.06.0/ Find Server install CD Then Select What Architecture SPARC Or HP PA-RISC Or IA-64
+2 Flash The Iso
+3 When on installer menu install to the hard disk
+4 Setup Ubuntu Server 6.06 Until Finished
+5 After Finish The Installation Run sudo nano /boot/grub/menu.lst Then go to End Default Options
+  Then change title Ubuntu, kernel 2.6.15-51-server to Linux Mint, kernel 2.6.15-51
+  Then change Recovery mode title Ubuntu, kernel 2.6.15-51-server (recovery mode)to Linux Mint, kernel 2.6.15-51 (recovery mode)
+  Then change Ubuntu, memtest86+ To Linux Mint, memtest86+
+  Ctrl x y enter no need update-grub it uses grub legacy
+6 Run sudo nano /etc/issue then change Ubuntu 6.06.2 LTS \n \l To Linux Mint 1.0 Ada \n \l then ctrl x y enter
+  Then Run sudo nano /etc/issue.net then change Ubuntu 6.06.2 LTS To Linux Mint 1.0 Ada then ctrl x y enter
+7 Run sudo nano /etc/motd
+
+Then Change
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+
+To
+
+The programs included with the Linux Mint system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Linux Mint comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+
+Then ctrl x y enter
