@@ -10,3 +10,4 @@
 6 Run sudo nano /etc/issue then change Ubuntu 6.06.2 LTS \n \l To Linux Mint 1.0 Ada \n \l then ctrl x y enter
   Then Run sudo nano /etc/issue.net then change Ubuntu 6.06.2 LTS To Linux Mint 1.0 Ada then ctrl x y enter
 7 Run sudo rm /etc/motd
+8 Run sudo reboot
