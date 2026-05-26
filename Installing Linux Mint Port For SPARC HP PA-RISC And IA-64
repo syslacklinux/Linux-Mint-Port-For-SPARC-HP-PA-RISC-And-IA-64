@@ -32,4 +32,4 @@ sudo apt-get update
 9 If your SPARC Or HP PA-RISC Or IA-64 Hardware Support KDE Run sudo apt-get install kubuntu-desktop since linux mint 1.0 uses kde
   If it doesnt support desktop environment you will ended up in very minimal base system
 
-10 Run sudo reboot
+10 Run sudo reboot and Enjoy your Linux Mint Port For SPARC HP PA-RISC And IA-64
